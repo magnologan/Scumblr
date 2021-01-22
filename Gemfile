@@ -25,7 +25,7 @@ gem 'workflowable'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
-gem 'jiralicious'
+gem 'jiralicious', '>= 0.5.0'
 
 #Authorization
 gem 'cancan'

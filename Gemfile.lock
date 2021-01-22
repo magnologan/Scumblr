@@ -160,7 +160,7 @@ GEM
     jquery-turbolinks (2.0.2)
       railties (>= 3.1.0)
       turbolinks
-    json (1.8.1)
+    json (1.8.6)
     jwt (1.0.0)
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
@@ -200,13 +200,13 @@ GEM
     method_source (0.8.2)
     mime-types (1.25.1)
     minitest (4.7.5)
-    multi_json (1.10.1)
-    multi_xml (0.5.5)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     naught (1.0.0)
     nested_form (0.3.2)
     nokogiri (1.5.11)
-    oauth (0.4.7)
+    oauth (0.5.5)
     oj (2.10.1)
     omniauth (1.2.2)
       hashie (>= 1.2, < 4)
@@ -422,7 +422,7 @@ DEPENDENCIES
   guard-rspec (~> 4.2.8)
   hashdiff
   ip
-  jiralicious
+  jiralicious (>= 0.5.0)
   jquery-rails
   jquery-turbolinks
   kaminari
@@ -460,3 +460,6 @@ DEPENDENCIES
   unicorn-rails
   workflowable
   yaml_db
+
+BUNDLED WITH
+   1.17.3
