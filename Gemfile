@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.9'
+gem 'rails', '6.0.3.5'
 
 
 #Support for attr_accessible
@@ -21,7 +21,7 @@ gem 'pg'
 gem 'omniauth-saml'
 
 #Workflow
-gem 'workflowable'
+gem 'workflowable', '>= 1.0.1'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
@@ -103,7 +103,7 @@ group :development do
   gem "bullet"
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.0', '<5'
+  gem 'rails-footnotes', '>= 4.0.2', '< 5'
   gem 'railroady'
   gem 'ruby_gntp'
   gem 'pry'
