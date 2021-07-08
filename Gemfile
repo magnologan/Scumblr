@@ -8,19 +8,19 @@ gem 'lograge'
 gem 'posix-spawn'
 
 #For Tasks/Search Providers
-gem 'google-api-client', '~>0.8.0'
-gem "github_api", require: false
+gem 'google-api-client', '~> 0.8.6'
+gem "github_api", ">= 0.18.1", require: false
 gem 'colorize', require: false
-gem 'twitter'
+gem 'twitter', '>= 5.11.0'
 gem 'market_bot'
-gem 'koala'
+gem 'koala', '>= 1.10.0'
 gem "brakeman", require: false
 gem "bundler-audit"
 gem 'rest-client'
 gem 'chartkick'
 gem 'redcarpet'
 
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 
 gem 'jwt', '<= 1.5.2'
 
